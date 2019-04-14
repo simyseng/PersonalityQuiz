@@ -14,6 +14,7 @@
 		D6E4CDFE226231C600EE9318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E4CDFC226231C600EE9318 /* LaunchScreen.storyboard */; };
 		D6E4CE062262452B00EE9318 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4CE052262452B00EE9318 /* QuestionViewController.swift */; };
 		D6E4CE082262460600EE9318 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4CE072262460600EE9318 /* ResultsViewController.swift */; };
+		D6E4CE0A2263231600EE9318 /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4CE092263231600EE9318 /* QuestionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D6E4CDFF226231C600EE9318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6E4CE052262452B00EE9318 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		D6E4CE072262460600EE9318 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		D6E4CE092263231600EE9318 /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		D6E4CDF2226231C300EE9318 /* PersonalityQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				D6E4CE092263231600EE9318 /* QuestionData.swift */,
 				D6E4CE052262452B00EE9318 /* QuestionViewController.swift */,
 				D6E4CE072262460600EE9318 /* ResultsViewController.swift */,
 				D6E4CDF3226231C300EE9318 /* AppDelegate.swift */,
@@ -143,6 +146,7 @@
 			files = (
 				D6E4CDF6226231C300EE9318 /* IntroductionViewController.swift in Sources */,
 				D6E4CDF4226231C300EE9318 /* AppDelegate.swift in Sources */,
+				D6E4CE0A2263231600EE9318 /* QuestionData.swift in Sources */,
 				D6E4CE062262452B00EE9318 /* QuestionViewController.swift in Sources */,
 				D6E4CE082262460600EE9318 /* ResultsViewController.swift in Sources */,
 			);

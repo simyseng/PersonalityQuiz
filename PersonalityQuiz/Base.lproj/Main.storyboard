@@ -81,10 +81,10 @@
             </objects>
             <point key="canvasLocation" x="36" y="130"/>
         </scene>
-        <!--View Controller-->
+        <!--Question View Controller-->
         <scene sceneID="ee5-gz-UfA">
             <objects>
-                <viewController id="26c-Lu-ZKW" sceneMemberID="viewController">
+                <viewController id="26c-Lu-ZKW" customClass="QuestionViewController" customModule="PersonalityQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qr4-Qy-Mqt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -241,6 +241,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="mRH-qI-Jg4"/>
                     <connections>
+                        <outlet property="multipleStackView" destination="bce-hc-S2J" id="aNc-Pn-QLd"/>
+                        <outlet property="rangedStackView" destination="gnm-oe-nhb" id="NiE-Pg-eBF"/>
+                        <outlet property="singleStackView" destination="Lgi-34-wiH" id="adk-AB-MYi"/>
                         <segue destination="q0x-qO-How" kind="show" identifier="ResultsSegue" id="ger-WY-rfa"/>
                     </connections>
                 </viewController>
@@ -251,7 +254,7 @@
         <!--Results-->
         <scene sceneID="ygK-Qt-vBR">
             <objects>
-                <viewController id="q0x-qO-How" sceneMemberID="viewController">
+                <viewController id="q0x-qO-How" customClass="ResultsViewController" customModule="PersonalityQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8J6-Kf-xA1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
